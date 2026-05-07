@@ -32,10 +32,6 @@ The results demonstrate the classic Time vs. Space tradeoff in firmware engineer
 2. **Footprint Superiority (Assembly):** The compiler's speed came at the cost of ROM bloat (332 bytes). The hand-written assembly sacrificed clock cycles but dramatically reduced the physical instruction footprint by ~60% (~120 bytes).
 3. **Conclusion:** For edge-computing applications where execution speed is the primary constraint, C compilation is optimal. However, in severely Flash-constrained microcontrollers, manual assembly architecture remains superior.
 
-## Visual Verification
-Execution time was visually verified using GPIO Bit-Toggling and captured via the Keil Logic Analyzer. The dual-trace square wave below physically represents the execution duration of both algorithms running sequentially.
-
-*(Upload your Keil Logic Analyzer screenshot to your repo and place the image link here. Example: `![Logic Analyzer Capture](docs/logic_analyzer.png)`)*
 
 ## File Structure
 ```text
