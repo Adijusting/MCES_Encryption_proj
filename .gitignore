@@ -1,0 +1,16 @@
+# Keil build and temporary files
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.map
+*.axf
+*.hex
+*.lnp
+*.sct
+*.Administrator
+*.bak
+Listings/
+Objects/
+DebugConfig/
